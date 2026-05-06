@@ -1,4 +1,4 @@
-import { SessionModel } from "../models/session.model.js";
+import { SessionModel } from "../models/Session.model.js";
 
 function buildUpdate(patch, id, userId) {
   const update = { $setOnInsert: { _id: id, userId } };
