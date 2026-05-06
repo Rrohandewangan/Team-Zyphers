@@ -1,4 +1,4 @@
-import { UserModel } from "../models/user.model.js";
+import { UserModel } from "../models/User.model.js";
 
 export const userRepo = {
   create: (doc) => UserModel.create(doc),
